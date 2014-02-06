@@ -125,7 +125,9 @@ a:visited {
 	font-weight: bolder;
 	color: #336600;
 }
-
+.vid{
+	color: #336600;
+}
 .label {
 	font-weight: bolder;
 }
