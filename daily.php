@@ -23,7 +23,7 @@
 		<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
 		<script type="text/javascript" src="jquery.nivo.slider.js"></script>
 
-		<script>
+		<!-- <script>
 			$(document).ready(function() {
 				var display1 = $('#display1').html();
 				var display2 = $('#display2').html();
@@ -31,12 +31,11 @@
 
 				window.localStorage.setItem("date", display);
 				window.localStorage['email'] = display2;
-				
-				display3
+
+				display3.html("date: " + window.localStorage.getItem("username") + "<br/>" + "Content: " + window.localStorage["email"])display3
 			})
 
-		</script>
-
+		</script> -->
 	</head>
 	<body>
 		<div id="daily" data-role='page' >
@@ -75,56 +74,118 @@
 			</div>
 
 			<div id='content' data-role='content'>
-
-				<div id="display1">
-					first try
-				</div>
-				<div id="display2">
-
-				</div>
-
-				<!-- <div id='content' data-role='content'>
 				<span class="date">1st February</span>
 				<br/>
 				<img src="img/flower1.jpg" height="10%" />
 				<div class="p_quotes">
-				<span class="date">GENESIS 22:14 </span>
-				<br/>
-				14 and Abraham calleth the name of that place `Jehovah-Jireh,' because it is said this day in the mount, `Jehovah doth provide.'
+					<span class="date">GENESIS 22:14 </span>
+					<br/>
+					14 and Abraham calleth the name of that place `Jehovah-Jireh,' because it is said this day in the mount, `Jehovah doth provide.'
 
-				One of God's names is Jehovah Jireh which is a compound name meaning the Lord sees ahead and provides.
+					One of God's names is Jehovah Jireh which is a compound name meaning the Lord sees ahead and provides.
 
-				“Jehovah-Jireh” means, “The Lord will see to it,” that is, “The Lord will provide.”
+					“Jehovah-Jireh” means, “The Lord will see to it,” that is, “The Lord will provide.”
 
-				My car recently quit running when I was in another city. As I prayed and looked to God, He helped me to work things out.
+					My car recently quit running when I was in another city. As I prayed and looked to God, He helped me to work things out.
 
-				While I didn't actually complain to God about having car trouble -- the thoughts were certainly there. (Thoughts like the repair money could have been put to a better use.)
+					While I didn't actually complain to God about having car trouble -- the thoughts were certainly there. (Thoughts like the repair money could have been put to a better use.)
 
-				I believe God spoke to my heart that He could have kept my car running perfectly. Or, He could have supernaturally healed it. But if He would have, then I would not have experienced Him as the One who sees ahead and provides, which He did.
+					I believe God spoke to my heart that He could have kept my car running perfectly. Or, He could have supernaturally healed it. But if He would have, then I would not have experienced Him as the One who sees ahead and provides, which He did.
 
-				It was not the first time God had provided for me, of course. But it is still always thrilling to know that God cares for you, and that He makes plans for your provision, even before you know you will need it.
+					It was not the first time God had provided for me, of course. But it is still always thrilling to know that God cares for you, and that He makes plans for your provision, even before you know you will need it.
 
-				Our God is mighty -- and wonderful!
+					Our God is mighty -- and wonderful!
 
-				SAY THIS: God always sees ahead and provides for me.
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
+					SAY THIS: God always sees ahead and provides for me.
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
 				</div>
 
-				</div> -->
 			</div>
 
 			<div id='footer' data-role='footer'>
 
 			</div>
 		</div>
+	<div id='header' data-role='header' >
+				<div class="div_header">
+					DAILY
+				</div>
+				<div class="wrapper1">
+					<a href="mainpage.php" data-transition='flip'  class="span_menu" style="color: black; border-left: 1px solid gray;"><img src="icons/home.png" />
+					<br/>
+					HOME</a>
+					<a href="daily.php" data-transition='slide' class="span_menu" style="color: black;"><img src="icons/devotion.png" />
+					<br/>
+					Daily</a>
+					<a href="quotes.php" data-transition='flip' class="span_menu" style="color: black; border-left: 1px solid gray;"><img src="icons/quote.png" />
+					<br/>
+					Quotes</a>
+					<a href="sermon.php" data-transition='slide' class="span_menu" style="color: black;"><img src="icons/sermon.png" />
+					<br/>
+					Sermon</a>
+					<a href="books.php" data-transition='slide' class="span_menu" style="color: black;"><img src="icons/books.png" />
+					<br/>
+					Books</a>
+					<a href="videos.php" data-transition='slide' class="span_menu" style="color: black;"><img src="icons/videos.png" />
+					<br/>
+					Videos</a>
+					<a href="loc.php" data-transition='slide' class="span_menu" style="color: black;"><img src="icons/loc.png" />
+					<br/>
+					Near You</a>
+					<a href="more.php" data-transition='slide' class="span_menu" style="color: black;"><img src="icons/more.png" />
+					<br/>
+					Donate</a>
+				</div>
 
+			</div>
+
+			<div id='content' data-role='content'>
+				<span class="date">1st February</span>
+				<br/>
+				<img src="img/flower1.jpg" height="10%" />
+				<div class="p_quotes">
+					<span class="date">GENESIS 22:14 </span>
+					<br/>
+					14 and Abraham calleth the name of that place `Jehovah-Jireh,' because it is said this day in the mount, `Jehovah doth provide.'
+
+					One of God's names is Jehovah Jireh which is a compound name meaning the Lord sees ahead and provides.
+
+					“Jehovah-Jireh” means, “The Lord will see to it,” that is, “The Lord will provide.”
+
+					My car recently quit running when I was in another city. As I prayed and looked to God, He helped me to work things out.
+
+					While I didn't actually complain to God about having car trouble -- the thoughts were certainly there. (Thoughts like the repair money could have been put to a better use.)
+
+					I believe God spoke to my heart that He could have kept my car running perfectly. Or, He could have supernaturally healed it. But if He would have, then I would not have experienced Him as the One who sees ahead and provides, which He did.
+
+					It was not the first time God had provided for me, of course. But it is still always thrilling to know that God cares for you, and that He makes plans for your provision, even before you know you will need it.
+
+					Our God is mighty -- and wonderful!
+
+					SAY THIS: God always sees ahead and provides for me.
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+
+			</div>
+
+			<!-- <div id='footer' data-role='footer'>
+
+			</div> -->
+		</div>
 	</body>
 </html>
 <script type="text/javascript" >

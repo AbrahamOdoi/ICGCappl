@@ -90,9 +90,9 @@
 
 			</div>
 
-			<div id='footer' data-role='footer'>
+			<!-- <div id='footer' data-role='footer'>
 
-			</div>
+			</div> -->
 		</div>
 
 	</body>
