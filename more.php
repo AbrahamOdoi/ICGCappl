@@ -66,19 +66,18 @@
 					<input type="hidden" name="invoice_id" id="invoice_id" value="<?php echo rand(); ?>" size="30"  required="required"/>
 					<input type=hidden name=ver value="1" />
 					<input type=hidden name="item_quantity_1" value="1" />
-					<input type=hidden name="item_description_1" value="A glass of milk" />
 					<input type=hidden name="item_price_1" value="1.0" />
 					<input type="hidden" name ="live_order"/>
 					<input type="hidden" name="success_url" value="http://www.nalosolutions.com/payments/success.php"/>
 					<input type="hidden" name="notification_url" value="http://www.nalosolutions.com/payments/notification.php"/>
 					<input type="hidden" name="cancelled_url" value="http://www.nalosolutions.com/payments/index.php"/>
+					
 					<label for="name">Full Name:</label>
-
 					<input type="text" name="name" value="" id="name" size="10px"/>
 					<label for="phone">Phone:</label>
 					<input type="text" name="phone" value="" id="pnone"/>
-					<label for="payment">Type of Payment:</label>
-					<select name="payment">
+					<label for="item_description_1">Type of Payment:</label>
+					<select name="item_description_1">
 						<option Value='none'>PLEASE SELECT</option>
 						<option Value='Donation'>Donation</option>
 						<option Value='Firstfruit'>Firstfruit</option>
@@ -86,8 +85,8 @@
 						<option Value='Offering'>Offering</option>
 					</select>
 
-					<label for='amount'></label> Amount:
-					<input type="text" name="amount" id="amount" />
+					<label for='total'></label> Amount:
+					<input type="text" name="total" id="amount" />
 					<br/>
 					<input type="submit" name="donate" value="submit" data-theme="e" />
 

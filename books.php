@@ -29,7 +29,7 @@
 
 			<div id='header' data-role='header' >
 				<div class="div_header">
-					QUOTES
+					BOOKS
 				</div>
 				<div class="wrapper1">
 					<a href="mainpage.php" data-transition='flip'rel="external" class="span_menu" style="color: black; border-left: 1px solid gray;"><img src="icons/home.png" />
@@ -64,29 +64,64 @@
 				<!-- <p style='vertical-align:center;color: gray;'>Dr. Otabil's quotes<img src="img/2_1.jpg" class="img_quote" style="float: left;"/></p> -->
 
 				<div class="p_quotes">
-					<a href="https://www.mensaotabil.com/products-page/ebooks/goal-setting-and-goal-getting/"><img src="img/books/GoalSetting.png" class="img_quote" style="float: left;"/></a>
-					<span class="date"><a href="https://www.mensaotabil.com/products-page/ebooks/goal-setting-and-goal-getting/">Setting and Goal Getting</a></span>
-					<br/>
-					Price: $6.00
-					<br/>
-					With no clear sense of where we are going, we are bound to settle for any destination. Without vision, we easily accept anything that comes our way and allow other people to set the agenda for our lives. That is why we ned to set goals and go on to achieve them. Setting goals requires that you learn from your past experiences, locate your current opportunities and launch boldly into your future.
-					<br />
-					<br />
-					Comment prendre des décisions éclairées présente comme approche systématique et pourtant simple qui comporte six étapes clés à recevoir de bons conseils et de prendre des décisions de qualité qui vous aideront à progresser dans la vie.
+					<form method=POST action="http://nalosolutions.api.ipaygh.com/gateway" id="frmbook" style="">
+						<input type="hidden" name="merchant_key" id="merchant_key" size="30" value="6-f3028edd-7e93-446e-afe7-a712f3cf2950" required="required"/>
+						<input type="hidden" name="invoice_id" id="invoice_id" value="<?php echo rand(); ?>" size="30"  required="required"/>
+						<input type=hidden name=ver value="1" />
+						<input type=hidden name="item_quantity_1" value="1" />
+						<input type=hidden name="item_price_1" value="1.0" />
+						<input type="hidden" name ="live_order"/>
+						<input type="hidden" name="success_url" value="http://www.nalosolutions.com/payments/success.php"/>
+						<input type="hidden" name="notification_url" value="http://www.nalosolutions.com/payments/notification.php"/>
+						<input type="hidden" name="cancelled_url" value="http://www.nalosolutions.com/payments/index.php"/>
+
+						<input type="hidden" name="item_description_1" value="Setting and Goal Getting" id="item_description_1"/>
+						<input type="hidden" name="total" id="amount" value="6" />
+						<img src="img/books/GoalSetting.png" class="img_quote" style="float: left;"/>
+						<!-- <span class="date"><a href="https://www.mensaotabil.com/products-page/ebooks/goal-setting-and-goal-getting/">Setting and Goal Getting</a></span> -->
+						<span class="date">Setting and Goal Getting</span>
+						<br/>
+						Price: $6.00
+						<br/>
+						With no clear sense of where we are going, we are bound to settle for any destination. Without vision, we easily accept anything that comes our way and allow other people to set the agenda for our lives. That is why we ned to set goals and go on to achieve them. Setting goals requires that you learn from your past experiences, locate your current opportunities and launch boldly into your future.
+						<br />
+						<br />
+						Comment prendre des décisions éclairées présente comme approche systématique et pourtant simple qui comporte six étapes clés à recevoir de bons conseils et de prendre des décisions de qualité qui vous aideront à progresser dans la vie.
+
+						<input type="submit" value="BUY" data-mini="true"/>
+					</form>
 				</div>
-				<p class="p_quotes">
-					<a href="https://www.mensaotabil.com/products-page/ebooks/how-to-make-wise-decisions/"><img src="img/books/Howtomake.png" class="img_quote" style="float: left;"/></a>
-					<span class="date"><a href="https://www.mensaotabil.com/products-page/ebooks/how-to-make-wise-decisions/">How to Make Wise Decisions</a></span>
-					<br/>
-					Price: $2.00
-					<br/>
-					Receiving good advice is an art that can be perfected by practice. The quality of our lives is influenced by the people from whom we receive advice. For each one of us, there are people who enrich our lives and others who deplete our lives because of the quality of advice they give to us.
-					How to Make Wise Decisions presents as systematic and yet simple approach that involves six key steps to receiving good advice and making quality decisions which will help you advance in life.....
-					<br/>
-					<br/>
-					En l'absence de vision claire de l'endroit où nous allons, nous sommes tenus de se contenter de n'importe quelle destination. Sans vision, nous acceptons facilement tout ce qui vient à notre rencontre et permettre aux autres de définir l'ordre du jour de nos vies. C'est pourquoi nous Ned se fixer des objectifs et de passer à leur réalisation. Fixer des objectifs exige que vous apprenez de vos expériences passées, retrouver vos possibilités actuelles et de lancer hardiment dans votre avenir
-					.....
-				</p>
+				<br/>
+				<div class="p_quotes">
+					<form method=POST action="http://nalosolutions.api.ipaygh.com/gateway" id="frmbook" style="">
+						<input type="hidden" name="merchant_key" id="merchant_key" size="30" value="6-f3028edd-7e93-446e-afe7-a712f3cf2950" required="required"/>
+						<input type="hidden" name="invoice_id" id="invoice_id" value="<?php echo rand(); ?>" size="30"  required="required"/>
+						<input type=hidden name=ver value="1" />
+						<input type=hidden name="item_quantity_1" value="1" />
+						<input type=hidden name="item_price_1" value="1.0" />
+						<input type="hidden" name ="live_order"/>
+						<input type="hidden" name="success_url" value="http://www.nalosolutions.com/payments/success.php"/>
+						<input type="hidden" name="notification_url" value="http://www.nalosolutions.com/payments/notification.php"/>
+						<input type="hidden" name="cancelled_url" value="http://www.nalosolutions.com/payments/index.php"/>
+
+						<input type="hidden" name="item_description_1" value="How to Make Wise Decisions" id="item_description_1"/>
+						<input type="hidden" name="total" id="amount" value="2" />
+						<img src="img/books/Howtomake.png" class="img_quote" style="float: left;"/>
+						<!-- <span class="date"><a href="https://www.mensaotabil.com/products-page/ebooks/how-to-make-wise-decisions/">How to Make Wise Decisions</a></span> -->
+						<span class="date">How to Make Wise Decisions</span>
+						<br/>
+						Price: $2.00
+						<br/>
+						Receiving good advice is an art that can be perfected by practice. The quality of our lives is influenced by the people from whom we receive advice. For each one of us, there are people who enrich our lives and others who deplete our lives because of the quality of advice they give to us.
+						How to Make Wise Decisions presents as systematic and yet simple approach that involves six key steps to receiving good advice and making quality decisions which will help you advance in life.....
+						<br/>
+						<br/>
+						En l'absence de vision claire de l'endroit où nous allons, nous sommes tenus de se contenter de n'importe quelle destination. Sans vision, nous acceptons facilement tout ce qui vient à notre rencontre et permettre aux autres de définir l'ordre du jour de nos vies. C'est pourquoi nous Ned se fixer des objectifs et de passer à leur réalisation. Fixer des objectifs exige que vous apprenez de vos expériences passées, retrouver vos possibilités actuelles et de lancer hardiment dans votre avenir
+						.....
+						
+						<input type="submit" value="BUY" data-mini="true"/>
+					</form>
+				</div>
 
 			</div>
 
