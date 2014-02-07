@@ -81,11 +81,11 @@
 				<!-- <div class="slider-wrapper theme-defaults"> -->
 
 				<div id="sliders" class="nivoSliders">
-					<img src="img/slide/1.jpg" data-thumb="img/slide/otabil1.jpg"  alt="ICGC Slide" class="img_slide"/>
+					<!-- <img src="img/slide/1.jpg" data-thumb="img/slide/otabil1.jpg"  alt="ICGC Slide" class="img_slide"/> -->
 					<img src="img/slide/2.jpg" data-thumb="img/slide/otabil2.jpg" alt="ICGC Slide"  class="img_slide"/>
 					<img src="img/slide/3.jpg" data-thumb="img/slide/otabil1.jpg"  alt="ICGC Slide"  class="img_slide"/>
-					<img src="img/slide/4.jpg" data-thumb="img/slide/otabil4.jpg"  alt="ICGC Slide"  class="img_slide"/>
-					<img src="img/slide/5.jpg" data-thumb="img/slide/otabil4.jpg"  alt="ICGC Slide"  class="img_slide"/>
+					<!-- <img src="img/slide/4.jpg" data-thumb="img/slide/otabil4.jpg"  alt="ICGC Slide"  class="img_slide"/> -->
+					<!-- <img src="img/slide/5.jpg" data-thumb="img/slide/otabil4.jpg"  alt="ICGC Slide"  class="img_slide"/> -->
 				</div>
 
 				<!-- </div> -->
