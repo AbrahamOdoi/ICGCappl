@@ -22,13 +22,13 @@
 		<script type="text/javascript" src="jquery.mobile-1.0.1.min.js"></script>
 		<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
 		<script type="text/javascript" src="jquery.nivo.slider.js"></script>
-		<script>
+		<!-- <script>
 			function myFunction() {
 				var x = document.getElementById("invoice_id")
 				// x.innerHTML = Math.floor((Math.random() * 10) + 1);
 				x.value = Math.floor((Math.random() * 10) + 1);
 			}
-		</script>
+		</script> -->
 	</head>
 	<body>
 		<div id='quotes' data-role='page' >
@@ -72,7 +72,7 @@
 				<div class="p_quotes">
 					<form method=POST action="http://nalosolutions.api.ipaygh.com/gateway" id="frmbook" style="">
 						<input type="hidden" name="merchant_key" id="merchant_key" size="30" value="6-f3028edd-7e93-446e-afe7-a712f3cf2950" required="required"/>
-						<input type="hidden" name="invoice_id" id="invoice_id" value="<?php echo rand(); ?>" size="30"  required="required"/>
+						<input type="hidden" name="invoice_id" id="invoice_id" value="<?php echo date('Y-m-d H:i:s'); ?>" size="30"  required="required"/>
 						<input type=hidden name=ver value="1" />
 						<input type=hidden name="item_quantity_1" value="1" />
 						<input type=hidden name="item_price_1" value="1.0" />
@@ -101,7 +101,7 @@
 				<div class="p_quotes">
 					<form method=POST action="http://nalosolutions.api.ipaygh.com/gateway" id="frmbook" style="">
 						<input type="hidden" name="merchant_key" id="merchant_key" size="30" value="6-f3028edd-7e93-446e-afe7-a712f3cf2950" required="required"/>
-						<input type="hidden" name="invoice_id" id="invoice_id" value="<?php echo rand(); ?>" size="30"  required="required"/>
+						<input type="hidden" name="invoice_id" id="invoice_id" value="<?php echo date('Y-m-d H:i:s'); ?>" size="30"  required="required"/>
 						<input type=hidden name=ver value="1" />
 						<input type=hidden name="item_quantity_1" value="1" />
 						<input type=hidden name="item_price_1" value="1.0" />
