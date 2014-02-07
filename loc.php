@@ -29,7 +29,7 @@
 
 			<div id='header' data-role='header' >
 				<div class="div_header">
-					SERMON
+					CONGREGATIONS
 				</div>
 				<div class="wrapper1">
 					<a href="mainpage.php" data-transition='flip'rel="external" class="span_menu" style="color: black; border-left: 1px solid gray;"><img src="icons/home.png" />

@@ -22,7 +22,13 @@
 		<script type="text/javascript" src="jquery.mobile-1.0.1.min.js"></script>
 		<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
 		<script type="text/javascript" src="jquery.nivo.slider.js"></script>
-
+		<script>
+			function myFunction() {
+				var x = document.getElementById("invoice_id")
+				// x.innerHTML = Math.floor((Math.random() * 10) + 1);
+				x.value = Math.floor((Math.random() * 10) + 1);
+			}
+		</script>
 	</head>
 	<body>
 		<div id='quotes' data-role='page' >
@@ -88,7 +94,7 @@
 						<br />
 						Comment prendre des décisions éclairées présente comme approche systématique et pourtant simple qui comporte six étapes clés à recevoir de bons conseils et de prendre des décisions de qualité qui vous aideront à progresser dans la vie.
 
-						<input type="submit" value="BUY" data-mini="true"/>
+						<input type="submit" onclick="myFunction()" value="BUY" data-mini="true"/>
 					</form>
 				</div>
 				<br/>
@@ -118,8 +124,8 @@
 						<br/>
 						En l'absence de vision claire de l'endroit où nous allons, nous sommes tenus de se contenter de n'importe quelle destination. Sans vision, nous acceptons facilement tout ce qui vient à notre rencontre et permettre aux autres de définir l'ordre du jour de nos vies. C'est pourquoi nous Ned se fixer des objectifs et de passer à leur réalisation. Fixer des objectifs exige que vous apprenez de vos expériences passées, retrouver vos possibilités actuelles et de lancer hardiment dans votre avenir
 						.....
-						
-						<input type="submit" value="BUY" data-mini="true"/>
+
+						<input type="submit" onclick="myFunction()" value="BUY" data-mini="true"/>
 					</form>
 				</div>
 

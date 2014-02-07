@@ -22,7 +22,13 @@
 		<script type="text/javascript" src="jquery.mobile-1.0.1.min.js"></script>
 		<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
 		<script type="text/javascript" src="jquery.nivo.slider.js"></script>
-
+		<script>
+			function myFunction() {
+				var x = document.getElementById("invoice_id")
+				// x.innerHTML = Math.floor((Math.random() * 10) + 1);
+				x.value = Math.floor((Math.random() * 10) + 1);
+			}
+		</script>
 	</head>
 	<body>
 		<div id='quotes' data-role='page' >
@@ -71,7 +77,7 @@
 					<input type="hidden" name="success_url" value="http://www.nalosolutions.com/payments/success.php"/>
 					<input type="hidden" name="notification_url" value="http://www.nalosolutions.com/payments/notification.php"/>
 					<input type="hidden" name="cancelled_url" value="http://www.nalosolutions.com/payments/index.php"/>
-					
+
 					<label for="name">Full Name:</label>
 					<input type="text" name="name" value="" id="name" size="10px"/>
 					<label for="phone">Phone:</label>
